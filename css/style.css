@@ -1,0 +1,93 @@
+/* Экран1 */
+
+*{
+    margin:0;
+    padding:0;
+    line-height: 140%; /*высота ВЫДЕЛЕНИЯ текста*/
+}
+
+body{
+    font-family: 'TT Hoves';
+    color:#222; /*не совсем чёрный*/
+}
+
+section{
+   padding: 0 120px; /*слева и справа отступы*/
+}
+
+.logo{
+   width: 295px; /*высоту можно не задавать-будет соразмерно сколько нужно, т.к. скачали файл*/
+   margin-top: 37px;
+}
+
+.courseData{
+    margin-top: 85px;
+    margin-bottom: 76px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px 160px;
+    font-size: 21px;
+    /*line-height: 140%;*/
+}
+
+/*
+.courseInfo .title{
+    font-size: 21px;
+    line-height: 140%;
+}
+*/
+
+.courseInfo .value{
+    /*font-size: 21px;*/
+    /*line-height: 140%;*/
+    font-weight: 700;
+}
+
+h1{
+    font-family: Chava;
+    font-size: 80px;
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: 27px;
+    font-weight: 300;
+    /*line-height: 140%;*/
+}
+
+.cta{
+   display: flex;
+   gap: 20px 30px;
+   flex-wrap: wrap;
+   margin-top: 20px;
+}
+
+.primary{
+    flex-basis: 328px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    border-radius: 12px;
+    background: #6E3ABA;
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.secondary{
+    flex-basis: 328px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    border-radius: 12px;
+    background: white;
+    padding: 20px 0px;
+    color: #6E3ABA;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #6E3ABA;
+}
